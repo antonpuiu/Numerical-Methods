@@ -12,6 +12,6 @@ function [L, U] = doolittle(A = magic(3))
       end
 
       L(j, i) = 1/U(i, i) * (A(j, i) - L(j, 1:i-1) * U(1:i-1, i));
-    endfor
-  endfor
+    end
+  end
 endfunction
