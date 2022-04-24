@@ -14,8 +14,10 @@ def lu(A: np.matrix):
         for j in range(i, n):
             U[i, j] = A[i, j] - L[i, 0:i] @ U[0:i, j]
 
-            if j > i:
-                L[j, i] = 1 / U[i, i] * (A[j, i] - L[j, 0:i] @ U[0:i, i])
+            if i == j:
+                continue
+
+            L[j, i] = 1 / U[i, i] * (A[j, i] - L[j, 0:i] @ U[0:i, i])
 
     return (L, U)
 
