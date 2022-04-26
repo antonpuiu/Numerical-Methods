@@ -1,5 +1,5 @@
 function test()
-  interval = 0:500;
+  interval = 0:200;
   t_normal = zeros(1, length(interval));
   t_opt = zeros(1, length(interval));
   t_fast = zeros(1, length(interval));
