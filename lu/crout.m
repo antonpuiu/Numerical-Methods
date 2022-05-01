@@ -1,4 +1,4 @@
-function [L, U] = crout(A = [2 -1 3; 4 5 1; 2 1 2])
+function [L, U] = crout(A)
   [m, n] = size(A);
   L = zeros(n, n);
   U = eye(n);
