@@ -1,4 +1,4 @@
-function [L, U] = doolittle(A = magic(15))
+function [L, U] = doolittle(A)
   [m, n] = size(A);
   L = eye(n);
   U = zeros(m, n);
