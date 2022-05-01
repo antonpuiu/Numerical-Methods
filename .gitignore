@@ -1,4 +1,5 @@
 python/**/__pycache__/
 octave/**/octave-workspace
 **/*~
+pdf/*
 pdf/!*.pdf
