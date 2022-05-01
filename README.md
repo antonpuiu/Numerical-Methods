@@ -2,6 +2,10 @@
 
 Public repository containing numerical methods algorithms.
 
-## Supported programming languages 
-    * Octave
-    * Python
+## Gaussian elimination
+
+## LU Decomposition
+
+## QR Decomposition
+
+## Eigenvalues
